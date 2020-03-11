@@ -1,21 +1,23 @@
 <template>
   <section class="home">
     <div class="container">
-      <HomeNameBlock />
-      <HomeMenuBlock />
-      <div class="content-blocks about hidex"></div>
+      <NameBlock />
+      <MenuBlock />
+      <ContentBlock />
     </div>
   </section>
 </template>
 
 <script>
-import HomeNameBlock from "../projects/HomeNameBlock";
-import HomeMenuBlock from "../projects/HomeMenuBlock";
+import NameBlock from "../projects/Home/NameBlock";
+import MenuBlock from "../projects/Home/MenuBlock";
+import ContentBlock from "../projects/Home/ContentBlock";
 export default {
   name: "TopNav",
   components: {
-    HomeNameBlock,
-    HomeMenuBlock
+    NameBlock,
+    MenuBlock,
+    ContentBlock
   },
   mounted() {
     $(".preloader").fadeOut("slow", function() {

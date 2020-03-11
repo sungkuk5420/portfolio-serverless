@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "HomeMenuBlock",
+  name: "MenuBlock",
   components: {},
   mounted() {},
   methods: {}

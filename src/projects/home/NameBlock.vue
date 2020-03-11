@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: "HomeNameBlock",
+  name: "NameBlock",
   components: {},
   mounted() {},
   methods: {}
