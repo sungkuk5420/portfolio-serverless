@@ -1,45 +1,21 @@
 <template>
   <q-page class="flex flex-start index-page">
-    <div class="preloader">
-      <div class="spinner">
-        <strong><span>Loading...</span><i class="fa-li fa fa-spinner fa-spin"></i></strong>
-      </div>
-    </div>
-    <div class="preloader-left "></div>
-    <div class="preloader-right "></div>
-
-    <div class="inline-menu-container hidex">
-      <ul class="inline-menu">
-        <li
-          data-langtext
-          class="about menu-item"
-          onclick="about(); ga('send', 'event', 'portfolio','click','resumePage');"
-        >
-          履歴書
-        </li>
-        <li
-          data-langtext
-          class="portfolio menu-item"
-          onclick="portfolio(); ga('send', 'event', 'portfolio','click','portfolioPage');"
-        >
-          ポートフォリオ
-        </li>
-        <li data-langtext class="blog menu-item" onclick="blog();">
-          ブログ
-        </li>
-        <li data-langtext class="contact menu-item" onclick="contact();">
-          連絡先
-        </li>
-        <li id="close" onclick="closeMenus();">×</li>
-      </ul>
-    </div>
+    <Loading />
+    <Home />
+    <TopNav />
   </q-page>
 </template>
 
 <script>
+import Loading from "../projects/Loading";
+import TopNav from "../projects/TopNav";
+import Home from "./Home";
 export default {
   name: "Index",
   components: {
+    Loading,
+    TopNav,
+    Home
   },
   methods: {
     movePage(pageName) {

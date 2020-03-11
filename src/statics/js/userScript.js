@@ -2,17 +2,6 @@
  * Created by pc on 2017/06/20.
  */
 var modalScroll = null;
-$(window).load(function() {
-  setTimeout(function() {
-    $(".preloader").fadeOut("slow", function() {
-      // setLanguage('ja');
-      $(".preloader-left").addClass("slide-left");
-      $(".preloader-right").addClass("slide-right");
-      $("#portfolio-case").addClass("full-portfolio");
-    });
-  }, 300);
-});
-
 $(".menu-item").on("click", function() {
   //Portfolio masonry
   var $container = $("#projects");
@@ -192,6 +181,4 @@ $("document").ready(function() {
       mouseWheel: true
     });
   }
-
-  $("#langForm").submit();
 });
