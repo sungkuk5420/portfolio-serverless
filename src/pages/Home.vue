@@ -25,6 +25,18 @@ export default {
       $(".preloader-right").addClass("slide-right");
       $("#portfolio-case").addClass("full-portfolio");
     });
+
+    updateProjectCount();
+    if (detectMobile()) {
+      $("#project-modal").css("overflow-y", "scroll");
+      $("#post-modal").css("overflow-y", "scroll");
+      $(".content-blocks").css("overflow-y", "scroll");
+    } else {
+      new IScroll(".content-blocks.about", {
+        scrollbars: true,
+        mouseWheel: true
+      });
+    }
   },
   methods: {
     movePage(pageName) {

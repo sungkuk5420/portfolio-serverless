@@ -114,30 +114,10 @@
           <div class="row ">
             <div class="col-md-12">
               <div class="exp-holder">
-                <div class="exp">
+                <div class="exp" v-for="(item,index) in companys" :key="index">
                   <div class="hgroup">
-                    <h4 data-langtext>株式会社Partner(韓国)</h4>
-                    <h5 data-langtext>2014年 08月 ~ 2016年 12月</h5>
-                  </div>
-                </div>
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>株式会社Sinq(日本)</h4>
-                    <h5 data-langtext>2017年 01月 ~ 2017年 3月</h5>
-                  </div>
-                </div>
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>株式会社ウフル(日本)</h4>
-                    <h5 data-langtext>2017年 06月 ~ 2019年 10月</h5>
-                  </div>
-                </div>
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      Webで画像の切り抜き、ARアプリ開発（フリーランス）
-                    </h4>
-                    <h5 data-langtext>2019年 11月 ~2020年 3月</h5>
+                    <h4 data-langtext>{{item.name}}</h4>
+                    <h5 data-langtext>{{item.date}}</h5>
                   </div>
                 </div>
               </div>
@@ -227,6 +207,7 @@ export default {
   computed: {
     ...mapGetters({
       projects: "getProjects",
+      companys: "getCompanys",
     })
   },
   mounted() {},

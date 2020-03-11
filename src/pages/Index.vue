@@ -1,9 +1,9 @@
 <template>
-  <q-page class="flex flex-start index-page">
+  <div class="flex flex-start index-page">
     <Loading />
     <Home />
     <TopNav />
-  </q-page>
+  </div>
 </template>
 
 <script>
