@@ -1,5 +1,5 @@
 export const getters = {
-  getter(state) {
-    return state;
+  getProjects(state) {
+    return state.projects;
   }
 };

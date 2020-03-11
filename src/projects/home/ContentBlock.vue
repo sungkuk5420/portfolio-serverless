@@ -63,235 +63,10 @@
           <div class="row ">
             <div class="col-md-12">
               <div class="exp-holder">
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブアプリケーション –
-                      工業所ユーザ管理アプリ（アンドロイド）
-                    </h4>
-                    <h5 data-langtext>2014年 03月 ~ 2014年 06月</h5>
-                  </div>
-                  <!-- <p data-langtext>担当：Frontend, Backend</p> -->
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブサイト – 備品、図書管理システム
-                    </h4>
-                    <h5 data-langtext>2014年 08月 ~ 2014年 12月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      大学校内出会いチャット
-                    </h4>
-                    <h5 data-langtext>2015年 04月 ~ 2016年 2月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブアプリケーション – 業務用社内チャット
-                    </h4>
-                    <h5 data-langtext>2015年 01月 ~ 2015年 12月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブアプリケーション – 自社サービス [GRAP]
-                      業務用社内チャット
-                    </h4>
-                    <h5 data-langtext>2016年 01月 ~ 2016年 12月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブアプリケーション – 日本語単語帳
-                    </h4>
-                    <h5 data-langtext>2016年 05月 ~ 2016年 08月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブサイト – ポートフォリオサイト
-                    </h4>
-                    <h5 data-langtext>2016年 12月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブサイト - はごろもフーズのキャンペーンサイト
-                    </h4>
-                    <h5 data-langtext>2017年 01月 ~ 2017年 03月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      Salesforceの開発 APEX, Visualforce page, SOQL, Trigger,
-                      lightning Component
-                    </h4>
-                    <h5 data-langtext>2017年 06月 ~ 2019年 10月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      WebGame – インディーゲーム
-                    </h4>
-                    <h5 data-langtext>2017年 07月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブアプリケーション – Youtube 模写 コーディング
-                    </h4>
-                    <h5 data-langtext>2018年 02月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブクローリング – 画像収集アプリ(Salesforce
-                      AIアプリコンテスト 2018 参加)
-                    </h4>
-                    <h5 data-langtext>2018年 05月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      PWA アプリケーション – 工業所ユーザ管理アプリ リニューアル
-                    </h4>
-                    <h5 data-langtext>2018年 05月 ~ 2019年 02月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      韓国の開発コミュニティNomadCodersの海外勤務者表示地図アプリ
-                    </h4>
-                    <h5 data-langtext>2018年 11月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブ、デスクトップアプリ - TodoList
-                    </h4>
-                    <h5 data-langtext>2019年 01月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブサイト - 動画共有プラットフォーム
-                    </h4>
-                    <h5 data-langtext>2019年 02月 ~ 2019年 07月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブ - スケッチブック
-                    </h4>
-                    <h5 data-langtext>2019年 04月 ~ 2019年 05月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      3D WebGame – インディーゲーム
-                    </h4>
-                    <h5 data-langtext>2019年 05月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブ - 映画作品一覧アプリ
-                    </h4>
-                    <h5 data-langtext>2019年 05月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      WebGame – Quizゲーム
-                    </h4>
-                    <h5 data-langtext>2019年 06月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブサービス –
-                      旅行サポートサービス（スーツケース、備品宅配）
-                    </h4>
-                    <h5 data-langtext>2019年 06月 ~ 2019年 08月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      PWAアプリ – 入店形式の総合ショッピングモール
-                    </h4>
-                    <h5 data-langtext>2019年 08月 ~ 2020年 02月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブアプリ - 画像切り取り、ARアプリ
-                    </h4>
-                    <h5 data-langtext>2019年 11月 ~ 2020年 03月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      ウェブ -
-                      韓国の開発コミュニティNomadCodersのHackathon参加者登録ページ
-                    </h4>
-                    <h5 data-langtext>2020年 02月</h5>
-                  </div>
-                </div>
-
-                <div class="exp">
-                  <div class="hgroup">
-                    <h4 data-langtext>
-                      デスクトップアプリ - オフラインメモアプリ
-                    </h4>
-                    <h5 data-langtext>2020年 03月</h5>
+                <div class="exp" v-for="(item,index) in projects" :key="index">
+                  <div class="hgroup"> 
+                    <h4 data-langtext>{{item.name}}</h4>
+                    <h5 data-langtext>{{item.date}}</h5>
                   </div>
                 </div>
               </div>
@@ -443,9 +218,17 @@
 </template>
 
 <script>
+import { T } from "../../store/module-example/types";
+import { mapGetters } from "vuex";
+
 export default {
   name: "ContentBlock",
   components: {},
+  computed: {
+    ...mapGetters({
+      projects: "getProjects",
+    })
+  },
   mounted() {},
   methods: {}
 };
