@@ -60,7 +60,7 @@ export default {
       date: "2018年 11月"
     },
     {
-      name: "Desktop – TodoList",
+      name: "Desktop – Todo List",
       date: "2019年 01月"
     },
     {

@@ -32,4 +32,10 @@ export default {
 .index-page {
   display: block;
 }
+.isotope-item {
+  transition-property: transform, opacity;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
 </style>
