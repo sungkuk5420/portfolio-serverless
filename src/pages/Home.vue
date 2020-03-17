@@ -13,7 +13,7 @@ import NameBlock from "../projects/Home/NameBlock";
 import MenuBlock from "../projects/Home/MenuBlock";
 import ContentBlock from "../projects/Home/ContentBlock";
 export default {
-  name: "TopNav",
+  name: "Home",
   components: {
     NameBlock,
     MenuBlock,

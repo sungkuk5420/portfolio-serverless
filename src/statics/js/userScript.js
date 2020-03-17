@@ -2,24 +2,6 @@
  * Created by pc on 2017/06/20.
  */
 var modalScroll = null;
-$(".menu-item").on("click", function() {
-  //Portfolio masonry
-  var $container = $("#projects");
-  $container.isotope({
-    masonry: {
-      columnWidth: 0
-    },
-    itemSelector: ".project"
-  });
-
-  //Portfolio filters
-  $("#filters").on("click", "li", function() {
-    $("#filters li").removeClass("active");
-    $(this).addClass("active");
-    var filterValue = $(this).attr("data-filter");
-    $container.isotope({ filter: filterValue });
-  });
-});
 
 //Portfolio Modal
 $(".open-project").on("click", function(e) {
@@ -164,21 +146,21 @@ $("document").ready(function() {
       scrollbars: true,
       mouseWheel: true
     });
-    new IScroll(".content-blocks.portfolio", {
-      scrollbars: true,
-      mouseWheel: true
-    });
-    new IScroll(".content-blocks.blog", {
-      scrollbars: true,
-      mouseWheel: true
-    });
-    new IScroll(".content-blocks.contact", {
-      scrollbars: true,
-      mouseWheel: true
-    });
-    new IScroll(".modal", {
-      scrollbars: true,
-      mouseWheel: true
-    });
+    // new IScroll(".content-blocks.portfolio", {
+    //   scrollbars: true,
+    //   mouseWheel: true
+    // });
+    // new IScroll(".content-blocks.blog", {
+    //   scrollbars: true,
+    //   mouseWheel: true
+    // });
+    // new IScroll(".content-blocks.contact", {
+    //   scrollbars: true,
+    //   mouseWheel: true
+    // });
+    // new IScroll(".modal", {
+    //   scrollbars: true,
+    //   mouseWheel: true
+    // });
   }
 });
