@@ -121,5 +121,49 @@ export default {
       name: "Webで画像の切り抜き、ARアプリ開発（フリーランス）",
       date: "2019年 11月 ~2020年 3月"
     }
+  ],
+  portfolios: [
+    {
+      tags: ["apps", "graphic"],
+      title: "Luxury Watch",
+      subTitle: "Graphic / Apps",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["web", "apps"],
+      title: "Colorful Tees",
+      subTitle: "Web / Apps",
+      image: "statics/images/portfolio/2.jpg"
+    },
+    {
+      tags: ["graphic", "video"],
+      title: "Coffee Cups",
+      subTitle: "Graphic / Video",
+      image: "statics/images/portfolio/3.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "Stationary Branding",
+      subTitle: "Web",
+      image: "statics/images/portfolio/4.jpg"
+    },
+    {
+      tags: ["graphic", "video"],
+      title: "Typewriter",
+      subTitle: "Graphic / Video",
+      image: "statics/images/portfolio/5.jpg"
+    },
+    {
+      tags: ["apps", "web"],
+      title: "Magazine Cover",
+      subTitle: "Web / Apps",
+      image: "statics/images/portfolio/6.jpg"
+    },
+    {
+      tags: ["video", "web"],
+      title: "An Ipad",
+      subTitle: "Video / Web",
+      image: "statics/images/portfolio/7.jpg"
+    }
   ]
 };

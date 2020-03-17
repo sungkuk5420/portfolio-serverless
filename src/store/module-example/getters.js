@@ -4,5 +4,8 @@ export const getters = {
   },
   getCompanys(state) {
     return state.companys;
+  },
+  getPortfolios(state) {
+    return state.portfolios;
   }
 };
