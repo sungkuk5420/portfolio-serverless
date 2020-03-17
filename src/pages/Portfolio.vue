@@ -15,14 +15,14 @@ export default {
   },
   mounted() {
     if (detectMobile()) {
-      $("#project-modal").css("overflow-y", "scroll");
-      $("#post-modal").css("overflow-y", "scroll");
-      $(".content-blocks").css("overflow-y", "scroll");
+      $(".content-blocks.portfolio").css("overflow-y", "scroll");
     } else {
-      new IScroll(".content-blocks.portfolio", {
-        scrollbars: true,
-        mouseWheel: true
-      });
+      setTimeout(() => {
+        window.scroll_bar = new IScroll(".content-blocks.portfolio", {
+          scrollbars: true,
+          mouseWheel: true
+        });
+      }, 1000);
     }
 
     $(".menu-item").on("click", function() {

@@ -4,11 +4,13 @@
     <div class="row">
       <div class="col-md-12">
         <ul id="filters">
-          <li class="active" data-filter="*">All</li>
-          <li data-filter=".graphic">Graphic</li>
-          <li data-filter=".web">Web</li>
-          <li data-filter=".video">Video</li>
-          <li data-filter=".apps">Apps</li>
+          <li class="active" @click="rebindScroll" data-filter="*">All</li>
+          <li @click="rebindScroll" data-filter=".Web">Web</li>
+          <li @click="rebindScroll" data-filter=".App">App</li>
+          <li @click="rebindScroll" data-filter=".Crawler">Crawler</li>
+          <li @click="rebindScroll" data-filter=".Desktop">Desktop</li>
+          <li @click="rebindScroll" data-filter=".Game">Game</li>
+          <li @click="rebindScroll" data-filter=".System">System</li>
         </ul>
         <div id="projects">
           <Project :item="item" v-for="(item,index) in portfolios" :key="index" />
@@ -42,7 +44,17 @@ export default {
     })
   },
   mounted() {},
-  methods: {}
+  methods: {
+    rebindScroll() {
+      if (window.scroll_bar) window.scroll_bar.destroy();
+      setTimeout(() => {
+        window.scroll_bar = new IScroll(".content-blocks.portfolio", {
+          scrollbars: true,
+          mouseWheel: true
+        });
+      }, 1000);
+    }
+  }
 };
 </script>
 

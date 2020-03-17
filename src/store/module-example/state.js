@@ -1,106 +1,107 @@
 export default {
   projects: [
     {
-      name: "ウェブアプリケーション – 工業所ユーザ管理アプリ（アンドロイド）",
+      name: "Web App – 工業所ユーザ管理アプリ（アンドロイド）",
       date: "2014年 03月 ~ 2014年 06月"
     },
     {
-      name: "ウェブサイト – 備品、図書管理システム",
+      name: "Web Service – 備品、図書管理システム",
       date: "2014年 08月 ~ 2014年 12月"
     },
     {
-      name: "大学校内出会いチャット",
+      name: "Web App – 大学校内出会いチャット",
       date: "2015年 04月 ~ 2016年 2月"
     },
     {
-      name: "ウェブアプリケーション – 業務用社内チャット",
+      name: "Web Service – 業務用社内チャット",
       date: "2015年 01月 ~ 2015年 12月"
     },
     {
-      name: "ウェブアプリケーション – 自社サービス [GRAP] 業務用社内チャット",
+      name: "Web Service – 自社サービス [GRAP] 業務用社内チャット",
       date: "2016年 01月 ~ 2016年 12月"
     },
     {
-      name: "ウェブアプリケーション – 日本語単語帳",
+      name: "Web App – 日本語単語帳",
       date: "2016年 05月 ~ 2016年 08月"
     },
     {
-      name: "ウェブサイト – ポートフォリオサイト",
+      name: "Web Site – ポートフォリオサイト",
       date: "2016年 12月"
     },
     {
-      name: "ウェブサイト - はごろもフーズのキャンペーンサイト",
+      name: "Web Site – はごろもフーズのキャンペーンサイト",
       date: "2017年 01月 ~ 2017年 03月"
     },
     {
       name:
-        "Salesforceの開発 APEX, Visualforce page, SOQL, Trigger, lightning Component",
+        "Web System – Salesforceの開発 APEX, Visualforce page, SOQL, Trigger, lightning Component",
       date: "2017年 06月 ~ 2019年 10月"
     },
     {
-      name: "WebGame – インディーゲーム",
+      name: "Web Game – インディーゲーム",
       date: "2017年 07月"
     },
     {
-      name: "ウェブアプリケーション – Youtube 模写 コーディング",
+      name: "Web Service – Youtube 模写 コーディング",
       date: "2018年 02月"
     },
     {
       name:
-        "ウェブクローリング – 画像収集アプリ(Salesforce AIアプリコンテスト 2018 参加)",
+        "web Crawler – 画像収集アプリ(Salesforce AIアプリコンテスト 2018 参加)",
       date: "2018年 05月"
     },
     {
-      name: "PWA アプリケーション – 工業所ユーザ管理アプリ リニューアル",
+      name: "Progressive Web App – 工業所ユーザ管理アプリ リニューアル",
       date: "2018年 05月 ~ 2019年 02月"
     },
     {
-      name: "韓国の開発コミュニティNomadCodersの海外勤務者表示地図アプリ",
+      name:
+        "Web Service – 韓国の開発コミュニティNomadCodersの海外勤務者表示地図アプリ",
       date: "2018年 11月"
     },
     {
-      name: "ウェブ、デスクトップアプリ - TodoList",
+      name: "Desktop – TodoList",
       date: "2019年 01月"
     },
     {
-      name: "ウェブサイト - 動画共有プラットフォーム",
+      name: "Web Site – 動画共有プラットフォーム",
       date: "2019年 02月 ~ 2019年 07月"
     },
     {
-      name: "ウェブ - スケッチブック",
+      name: "Web Site – スケッチブック",
       date: "2019年 04月 ~ 2019年 05月"
     },
     {
-      name: "3D WebGame – インディーゲーム",
+      name: "3D Web Game – インディーゲーム",
       date: "2019年 05月"
     },
     {
-      name: "ウェブ - 映画作品一覧アプリ",
+      name: "Web Service – 人気映画作品一覧サイト",
       date: "2019年 05月"
     },
     {
-      name: "WebGame – Quizゲーム",
+      name: "Web Game – Quizゲーム",
       date: "2019年 06月"
     },
     {
-      name: "ウェブサービス – 旅行サポートサービス（スーツケース、備品宅配）",
+      name: "Web Service – 旅行サポートサービス（スーツケース、備品宅配）",
       date: "2019年 06月 ~ 2019年 08月"
     },
     {
-      name: "PWAアプリ – 入店形式の総合ショッピングモール",
+      name: "Progressive Web App – 入店形式の総合ショッピングモール",
       date: "2019年 08月 ~ 2020年 02月"
     },
     {
-      name: "ウェブアプリ - 画像切り取り、ARアプリ",
+      name: "Progressive Web App – 画像切り取り、ARアプリ",
       date: "2019年 11月 ~ 2020年 03月"
     },
     {
       name:
-        "ウェブ - 韓国の開発コミュニティNomadCodersのHackathon参加者登録ページ",
+        "Web Site – 韓国の開発コミュニティNomadCodersのHackathon参加者登録ページ",
       date: "2020年 02月"
     },
     {
-      name: "デスクトップアプリ - オフラインメモアプリ",
+      name: "DeskTop Application – オフラインメモアプリ",
       date: "2020年 03月"
     }
   ],
@@ -124,46 +125,180 @@ export default {
   ],
   portfolios: [
     {
-      tags: ["apps", "graphic"],
-      title: "Luxury Watch",
-      subTitle: "Graphic / Apps",
+      tags: ["App"],
+      title: "工業所ユーザ管理アプリ（アンドロイド）",
+      subTitle: "",
+      date: "2014年 03月 ~ 2014年 06月",
       image: "statics/images/portfolio/1.jpg"
     },
     {
-      tags: ["web", "apps"],
-      title: "Colorful Tees",
-      subTitle: "Web / Apps",
+      tags: ["Web"],
+      title: "備品、図書管理システム",
+      subTitle: "",
+      date: "2014年 08月 ~ 2014年 12月",
       image: "statics/images/portfolio/2.jpg"
     },
     {
-      tags: ["graphic", "video"],
-      title: "Coffee Cups",
-      subTitle: "Graphic / Video",
+      tags: ["App"],
+      title: "大学校内出会いチャット",
+      subTitle: "",
+      date: "2015年 04月 ~ 2016年 2月",
       image: "statics/images/portfolio/3.jpg"
     },
     {
       tags: ["Web"],
-      title: "Stationary Branding",
-      subTitle: "Web",
+      title: "業務用社内チャット",
+      subTitle: "",
+      date: "2015年 01月 ~ 2015年 12月",
       image: "statics/images/portfolio/4.jpg"
     },
     {
-      tags: ["graphic", "video"],
-      title: "Typewriter",
-      subTitle: "Graphic / Video",
+      tags: ["Web"],
+      title: "自社サービス [GRAP] 業務用社内チャット",
+      subTitle: "",
+      date: "2016年 01月 ~ 2016年 12月",
       image: "statics/images/portfolio/5.jpg"
     },
     {
-      tags: ["apps", "web"],
-      title: "Magazine Cover",
-      subTitle: "Web / Apps",
+      tags: ["App"],
+      title: "日本語単語帳",
+      subTitle: "",
+      date: "2016年 05月 ~ 2016年 08月",
       image: "statics/images/portfolio/6.jpg"
     },
     {
-      tags: ["video", "web"],
-      title: "An Ipad",
-      subTitle: "Video / Web",
+      tags: ["Web"],
+      title: "ポートフォリオサイト",
+      subTitle: "",
+      date: "2016年 12月",
       image: "statics/images/portfolio/7.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "はごろもフーズのキャンペーンサイト",
+      subTitle: "",
+      date: "2017年 01月 ~ 2017年 03月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web", "System"],
+      title:
+        "Salesforceの開発 APEX, Visualforce page, SOQL, Trigger, lightning Component",
+      subTitle: "",
+      date: "2017年 06月 ~ 2019年 10月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Game"],
+      title: "インディーゲーム",
+      subTitle: "",
+      date: "2017年 07月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "Youtube 模写 コーディング",
+      subTitle: "",
+      date: "2018年 02月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Crawler"],
+      title: "画像収集アプリ(Salesforce AIアプリコンテスト 2018 参加)",
+      subTitle: "",
+      date: "2018年 05月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["App"],
+      title: "工業所ユーザ管理アプリ リニューアル",
+      subTitle: "",
+      date: "2018年 05月 ~ 2019年 02月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "韓国の開発コミュニティNomadCodersの海外勤務者表示地図アプリ",
+      subTitle: "",
+      date: "2018年 11月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Desktop"],
+      title: "TodoList",
+      subTitle: "",
+      date: "2019年 01月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "動画共有プラットフォーム",
+      subTitle: "",
+      date: "2019年 02月 ~ 2019年 07月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "スケッチブック",
+      subTitle: "",
+      date: "2019年 04月 ~ 2019年 05月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Game"],
+      title: "インディーゲーム",
+      subTitle: "",
+      date: "2019年 05月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "人気映画作品一覧サイト",
+      subTitle: "",
+      date: "2019年 05月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Game"],
+      title: "Quizゲーム",
+      subTitle: "",
+      date: "2019年 06月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "旅行サポートサービス（スーツケース、備品宅配）",
+      subTitle: "",
+      date: "2019年 06月 ~ 2019年 08月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["App"],
+      title: "入店形式の総合ショッピングモール",
+      subTitle: "",
+      date: "2019年 08月 ~ 2020年 02月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["App"],
+      title: "画像切り取り、ARアプリ",
+      subTitle: "",
+      date: "2019年 11月 ~ 2020年 03月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Web"],
+      title: "韓国の開発コミュニティNomadCodersのHackathon参加者登録ページ",
+      subTitle: "",
+      date: "2020年 02月",
+      image: "statics/images/portfolio/1.jpg"
+    },
+    {
+      tags: ["Desktop"],
+      title: "オフラインメモアプリ",
+      subTitle: "",
+      date: "2020年 03月",
+      image: "statics/images/portfolio/1.jpg"
     }
   ]
 };

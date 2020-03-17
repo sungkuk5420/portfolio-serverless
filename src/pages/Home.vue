@@ -28,9 +28,7 @@ export default {
 
     updateProjectCount();
     if (detectMobile()) {
-      $("#project-modal").css("overflow-y", "scroll");
-      $("#post-modal").css("overflow-y", "scroll");
-      $(".content-blocks").css("overflow-y", "scroll");
+      $(".content-blocks.about").css("overflow-y", "scroll");
     } else {
       new IScroll(".content-blocks.about", {
         scrollbars: true,
