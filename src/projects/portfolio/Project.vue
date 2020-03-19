@@ -4,8 +4,8 @@
       <div class="project-overlay">
         <div class="vcenter">
           <div class="centrize">
-            <h4>{{item.title}}</h4>
-            <p>{{item.subTitle}}</p>
+            <h4 data-langtext>{{ item.title }}</h4>
+            <p data-langtext>{{ item.subTitle }}</p>
           </div>
         </div>
       </div>
