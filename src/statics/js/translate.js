@@ -213,7 +213,7 @@ function translateCB(translateTextObj, sendLang, checkKey, autoKey) {
 }
 
 function translateAPI(text, sendLang, resultLang, cb) {
-  var apiUrl = "http://54.64.84.165:3000";
+  var apiUrl = "https://54.64.84.165";
   $.ajax({
     type: "GET",
     beforeSend: function(request) {
