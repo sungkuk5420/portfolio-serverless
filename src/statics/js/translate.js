@@ -213,7 +213,7 @@ function translateCB(translateTextObj, sendLang, checkKey, autoKey) {
 }
 
 function translateAPI(text, sendLang, resultLang, cb) {
-  var apiUrl = "http://localhost:3000";
+  var apiUrl = "https://devkim.dev";
   $.ajax({
     type: "GET",
     beforeSend: function(request) {
