@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import NameBlock from "../projects/Home/NameBlock";
-import MenuBlock from "../projects/Home/MenuBlock";
-import ContentBlock from "../projects/Home/ContentBlock";
+import NameBlock from "../projects/home/NameBlock";
+import MenuBlock from "../projects/home/MenuBlock";
+import ContentBlock from "../projects/home/ContentBlock";
 export default {
   name: "Home",
   components: {
