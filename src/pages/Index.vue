@@ -3,6 +3,8 @@
     <Loading />
     <Home />
     <Portfolio />
+    <Blog />
+    <Contact />
     <TopNav />
     <div class="modal fade" id="project-modal" style>
       <div class="modal-dialog">
@@ -22,13 +24,17 @@ import Loading from "../projects/Loading";
 import TopNav from "../projects/TopNav";
 import Home from "./Home";
 import Portfolio from "./Portfolio";
+import Blog from "./Blog";
+import Contact from "./Contact";
 export default {
   name: "Index",
   components: {
     Loading,
     TopNav,
     Home,
-    Portfolio
+    Portfolio,
+    Blog,
+    Contact
   },
   methods: {
     movePage(pageName) {
