@@ -8,8 +8,8 @@
   "author": "kim_sungkuk@mindfree.co.jp",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
-    "build": "npm i -g @quasar/cli && npm i && npm audit fix && quasar build"
+    "dev": "quasar dev",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
