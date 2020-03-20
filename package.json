@@ -1,8 +1,8 @@
 {
-  "name": "Kim Sungkuk",
+  "name": "KimSungkuk",
   "version": "0.0.1",
   "description": "Portfolio",
-  "productName": "Kim Sungkuk",
+  "productName": "KimSungkuk",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "kim_sungkuk@mindfree.co.jp",
