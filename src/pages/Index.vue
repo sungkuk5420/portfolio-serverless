@@ -6,16 +6,7 @@
     <Blog />
     <Contact />
     <TopNav />
-    <div class="modal fade" id="project-modal" style>
-      <div class="modal-dialog">
-        <div class="modal-content"></div>
-      </div>
-      <div class="inline-menu-container">
-        <a id="modal-close" class="close" data-dismiss="modal" onclick="modalScroll.destroy();">
-          <span aria-hidden="true">&times;</span>
-        </a>
-      </div>
-    </div>
+    <ProjectModal/>
   </div>
 </template>
 
@@ -26,6 +17,8 @@ import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Blog from "./Blog";
 import Contact from "./Contact";
+import ProjectModal from "./ProjectModal";
+
 export default {
   name: "Index",
   components: {
@@ -34,12 +27,13 @@ export default {
     Home,
     Portfolio,
     Blog,
-    Contact
+    Contact,
+    ProjectModal
   },
   methods: {
     movePage(pageName) {
       this.$router.push(pageName);
-    }
+    },
   }
 };
 </script>

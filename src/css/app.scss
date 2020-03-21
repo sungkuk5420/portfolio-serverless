@@ -1328,7 +1328,7 @@ ul.info-list li strong {
   position: fixed;
   width: 70%;
   left: 30%;
-  z-index: 99999;
+  z-index: 9998;
   top: 0;
 }
 
@@ -1381,7 +1381,7 @@ ul.info-list li strong {
 #post-modal,
 #project-modal {
   padding-left: 0px !important;
-  z-index: 99999;
+  z-index: 9998;
 }
 
 .content {
@@ -1415,9 +1415,9 @@ ul.info-list li strong {
     background-repeat: no-repeat;
   }
   .content-blocks {
-    width: 100%;
+    width: 70%;
     height: 100%;
-    left: 0;
+    left: 30%;
   }
 }
 

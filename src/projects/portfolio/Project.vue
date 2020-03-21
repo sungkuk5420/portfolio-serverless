@@ -1,6 +1,6 @@
 <template>
   <div class="project" :class="item.tags">
-    <a class="open-project" href="/luxuryWatch">
+    <a class="open-project" href="#" @click="openModal">
       <div class="project-overlay">
         <div class="vcenter">
           <div class="centrize">
@@ -10,8 +10,9 @@
         </div>
       </div>
     </a>
-    <img :src="item.image" alt />
+    <img :src="item.mainImage" alt />
   </div>
+  
 </template>
 
 <script>
@@ -23,8 +24,24 @@ export default {
   props: ["item"],
   components: {},
   computed: {},
-  mounted() {},
-  methods: {}
+  mounted() {
+    
+  },
+  methods: {
+    openModal () {
+      var projectUrl = $(this).attr("href");
+      projectUrl = "test";
+      $("#project-modal")
+        .modal("show")
+        .find(".modal-content");
+      setTimeout(function() {
+        modalScroll = new IScroll(".modal", {
+          scrollbars: true,
+          mouseWheel: true
+        });
+      }, 200);
+    }
+  }
 };
 </script>
 
