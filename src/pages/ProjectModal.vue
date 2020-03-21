@@ -6,27 +6,15 @@
             <section class="content">
               <div class="block-content">
                 <div class="project-title">
-                  <h2>Luxury Watch</h2>
-                  <p class="tags">Graphic / Apps</p>
+                  <h2>{{projectModalData.title}}</h2>
+                  <p class="tags">{{projectModalData.tags.join(' / ')}}</p>
                 </div>
                 <p class="project-description">
-                  Omnium nominati prodesset pri no. Per dolor gloriatur persequeris ad, te
-                  his aliquip molestie. Veri tantas ad usu, mel ne sonet quaeque
-                  assueverit. Enim eruditi euripidis his et, dictas admodum posidonium ei
-                  pro. An duo tempor maluisset honestatis. Ne cum invidunt constituto,
-                  sanctus accusam an usu, ea mandamus incorrupte mel. Pro cu purto graeco.
-                  Wisi sonet elitr eos in. Est sint magna mucius te, iudico integre
-                  gubergren no vis. Assum doming et pro, est ei inermis corpora
-                  argumentum. Eos graece sadipscing et, pri dico salutandi consetetur et,
-                  explicari voluptatum mei at. Ex cum nisl epicurei, sea in molestie
-                  theophrastus, nibh tollit apeirian no vis. Eum an vocibus gubergren
-                  intellegam, quo id soluta iisque phaedrum.
+                  {{projectModalData.content}}
                 </p>
                 <div class="project-media">
                   <div id="image_container">
-                    <img src="statics/images/portfolio/1.png" @click="openImageGallery" data-bp="statics/images/portfolio/1.png" class="example" />
-                    <img src="statics/images/portfolio/6.png" @click="openImageGallery" data-bp="statics/images/portfolio/6.png" />
-                    <img src="statics/images/portfolio/7.png" @click="openImageGallery" data-bp="statics/images/portfolio/7.png" class="example" />
+                    <img :src="imagePath" @click="openImageGallery" :data-bp="imagePath" v-for="(imagePath, index) in projectModalData.subImages" v-bind:key="index" class="example" />
                   </div>
                 </div>
               </div>
@@ -43,12 +31,20 @@
 </template>
 
 <script>
+import { T } from "../store/module-example/types";
+import { mapGetters } from "vuex";
+
 import BigPicture from 'bigpicture'
 export default {
   name: "Blog",
   components: {
   },
   mounted() {
+  },
+  computed: {
+    ...mapGetters({
+      projectModalData: "getProjectModalData"
+    })
   },
   methods: {
     openImageGallery(e) {

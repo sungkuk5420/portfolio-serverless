@@ -3,11 +3,14 @@ import { T } from "./types";
 import { ajaxActions } from "./ajaxActions";
 
 export const actions = {
-  [T.TYPE]({ commit }, activeTab) {
+  [T.CHANGE_PROJECT_MODAL_DATA]({ commit }, {data,cb}) {
     console.log(
-      `store action [T.TYPE] activeTab = ${activeTab}`
+      `store action [T.CHANGE_PROJECT_MODAL_DATA] data = ${data}`
     );
-    commit(T.TYPE, activeTab);
+    commit(T.CHANGE_PROJECT_MODAL_DATA, data);
+    if(cb){
+      cb();
+    }
   },
   [T.TYPE]({ commit }, { data = {}, cb }) {
     console.log(`store action [T.TYPE] data : ${data}`);

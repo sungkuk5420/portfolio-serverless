@@ -1,6 +1,6 @@
 <template>
   <div class="project" :class="item.tags">
-    <a class="open-project" href="#" @click="openModal">
+    <a class="open-project" href="#" @click="function(){openModal(item.id)}">
       <div class="project-overlay">
         <div class="vcenter">
           <div class="centrize">
@@ -28,18 +28,22 @@ export default {
     
   },
   methods: {
-    openModal () {
-      var projectUrl = $(this).attr("href");
-      projectUrl = "test";
-      $("#project-modal")
-        .modal("show")
-        .find(".modal-content");
-      setTimeout(function() {
-        modalScroll = new IScroll(".modal", {
-          scrollbars: true,
-          mouseWheel: true
-        });
-      }, 200);
+    openModal (id) {
+      this.$store.dispatch(T.CHANGE_PROJECT_MODAL_DATA, {
+        data:id,
+        cb:()=>{
+        var projectUrl = $(this).attr("href");
+        projectUrl = "test";
+        $("#project-modal")
+          .modal("show")
+          .find(".modal-content");
+        setTimeout(function() {
+          modalScroll = new IScroll(".modal", {
+            scrollbars: true,
+            mouseWheel: true
+          });
+        }, 200);
+      }});
     }
   }
 };

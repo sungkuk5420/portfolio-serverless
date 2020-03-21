@@ -7,5 +7,12 @@ export const getters = {
   },
   getPortfolios(state) {
     return state.portfolios;
+  },
+  getProjectModalData(state) {
+    let data = state.portfolios.filter(item=>{
+      return item.id === state.projectModalActiveIndex
+    })[0];
+    console.log(data)
+    return data;
   }
 };

@@ -1,3 +1,3 @@
 export const T = {
-  TYPE: "TYPE"
+  CHANGE_PROJECT_MODAL_DATA: "CHANGE_PROJECT_MODAL_DATA"
 };
