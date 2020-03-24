@@ -132,7 +132,7 @@
           私はこれが開発できます。
         </h3>
         <div class="row">
-          <div class="col-sm-4 service">
+          <div class="col-sm-4 col-xs-12 service">
             <div class="service-icon">
               <i class="fa fa-desktop"></i>
             </div>
@@ -141,7 +141,7 @@
               ウェブサイト/ ウェブアプリケーション 開発
             </p>
           </div>
-          <div class="col-sm-4 service">
+          <div class="col-sm-4 col-xs-12 service">
             <div class="service-icon">
               <i class="fa fa-mobile" aria-hidden="true"></i>
             </div>
@@ -150,7 +150,7 @@
               Cordova, PWA, React Nativeを利用したモバイルアプリ開発
             </p>
           </div>
-          <div class="col-sm-4 service">
+          <div class="col-sm-4 col-xs-12 service">
             <div class="service-icon">
               <i class=" fa fa-image"></i>
             </div>
@@ -160,7 +160,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-4 service">
+          <div class="col-sm-4 col-xs-12 service">
             <div class="service-icon">
               <i class=" fa fa-image"></i>
             </div>
@@ -169,14 +169,14 @@
               EC2 Linuxサーバーの構築、APIサーバー開発、
             </p>
           </div>
-          <div class="col-sm-4 service">
+          <div class="col-sm-4 col-xs-12 service">
             <div class="service-icon">
               <i class=" fa fa-image"></i>
             </div>
             <h4 data-langtext>データベース</h4>
             <p data-langtext>データモデリング</p>
           </div>
-          <div class="col-sm-4 service">
+          <div class="col-sm-4 col-xs-12 service">
             <div class="service-icon">
               <i class=" fa fa-image"></i>
             </div>

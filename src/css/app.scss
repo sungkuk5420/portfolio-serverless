@@ -855,23 +855,24 @@ ul.info-list li strong {
 }
 
 .project-title h2 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .project-title .tags {
   font-weight: 700;
   font-size: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 1.7;
 }
 
 .project-description {
   text-align: justify;
+  line-height: 1;
+  margin-bottom: 20px;
 }
 
 .project-media {
-  margin: 0 auto;
-  max-width: 780px;
-  margin-top: 30px;
+  margin: 10px auto;
 }
 
 .video-container {

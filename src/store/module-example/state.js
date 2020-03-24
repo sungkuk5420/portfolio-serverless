@@ -125,381 +125,398 @@ export default {
   ],
   portfolios: [
     {
-      id:1,
+      id: 1,
       tags: ["App"],
       title: "工業所ユーザ管理アプリ（アンドロイド）",
       subTitle: "",
       date: "2014年 03月 ~ 2014年 06月",
       mainImage: "statics/images/portfolio/1.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
+        "statics/images/portfolio/details/1/1.jpg",
+        "statics/images/portfolio/details/1/2.jpg",
+        "statics/images/portfolio/details/1/3.png",
+        "statics/images/portfolio/details/1/4.png",
+        "statics/images/portfolio/details/1/5.png"
       ]
     },
     {
-      id:2,
+      id: 2,
       tags: ["Web"],
       title: "備品、図書管理システム",
       subTitle: "",
       date: "2014年 08月 ~ 2014年 12月",
-      mainImage: "statics/images/portfolio/project-2.jpg",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+      mainImage: "statics/images/portfolio/2.jpg",
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
+        "statics/images/portfolio/details/2/1.jpg",
+        "statics/images/portfolio/details/2/2.jpg",
+        "statics/images/portfolio/details/2/3.jpg",
+        "statics/images/portfolio/details/2/4.jpg",
+        "statics/images/portfolio/details/2/5.jpg"
       ]
     },
     {
-      id:3,
+      id: 3,
       tags: ["App"],
       title: "大学校内出会いチャット",
       subTitle: "",
       date: "2015年 04月 ~ 2016年 2月",
       mainImage: "statics/images/portfolio/3.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
+        "statics/images/portfolio/details/3/1.png",
+        "statics/images/portfolio/details/3/2.jpg",
+        "statics/images/portfolio/details/3/3.jpg",
+        "statics/images/portfolio/details/3/4.png",
+        "statics/images/portfolio/details/3/5.jpg",
+        "statics/images/portfolio/details/3/6.jpg",
+        "statics/images/portfolio/details/3/7.jpg",
+        "statics/images/portfolio/details/3/8.png",
+        "statics/images/portfolio/details/3/9.jpg",
+        "statics/images/portfolio/details/3/10.jpg",
+        "statics/images/portfolio/details/3/11.jpg"
       ]
     },
     {
-      id:4,
+      id: 4,
       tags: ["Web"],
       title: "業務用社内チャット",
       subTitle: "",
       date: "2015年 01月 ~ 2015年 12月",
       mainImage: "statics/images/portfolio/4.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
+        "statics/images/portfolio/details/3/1.png",
+        "statics/images/portfolio/details/3/2.jpg",
+        "statics/images/portfolio/details/3/3.jpg",
+        "statics/images/portfolio/details/3/4.png",
+        "statics/images/portfolio/details/3/5.jpg",
+        "statics/images/portfolio/details/3/6.jpg",
+        "statics/images/portfolio/details/3/7.jpg",
+        "statics/images/portfolio/details/3/8.png",
+        "statics/images/portfolio/details/3/9.jpg",
+        "statics/images/portfolio/details/3/10.jpg",
+        "statics/images/portfolio/details/3/11.jpg"
       ]
     },
     {
-      id:5,
+      id: 5,
       tags: ["Web"],
       title: "自社サービス [GRAP] 業務用社内チャット",
       subTitle: "",
       date: "2016年 01月 ~ 2016年 12月",
       mainImage: "statics/images/portfolio/5.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:6,
-      tags: ["App"],
+      id: 6,
+      tags: ["Wab", "App"],
       title: "日本語単語帳",
       subTitle: "",
       date: "2016年 05月 ~ 2016年 08月",
       mainImage: "statics/images/portfolio/6.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:7,
+      id: 7,
       tags: ["Web"],
       title: "ポートフォリオサイト",
       subTitle: "",
       date: "2016年 12月",
       mainImage: "statics/images/portfolio/7.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
+        "statics/images/portfolio/details/7/1.png",
+        "statics/images/portfolio/details/7/2.png",
+        "statics/images/portfolio/details/7/3.png",
+        "statics/images/portfolio/details/7/4.png",
+        "statics/images/portfolio/details/7/5.png"
       ]
     },
     {
-      id:8,
+      id: 8,
       tags: ["Web"],
       title: "はごろもフーズのキャンペーンサイト",
       subTitle: "",
       date: "2017年 01月 ~ 2017年 03月",
       mainImage: "statics/images/portfolio/8.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
       tags: ["Web", "System"],
-      id:9,
+      id: 9,
       title:
         "Salesforceの開発 APEX, Visualforce page, SOQL, Trigger, lightning Component",
       subTitle: "",
       date: "2017年 06月 ~ 2019年 10月",
       mainImage: "statics/images/portfolio/9.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:10,
+      id: 10,
       tags: ["Game"],
       title: "インディーゲーム",
       subTitle: "",
       date: "2017年 07月",
       mainImage: "statics/images/portfolio/10.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:11,
+      id: 11,
       tags: ["Web"],
       title: "Youtube 模写 コーディング",
       subTitle: "",
       date: "2018年 02月",
       mainImage: "statics/images/portfolio/11.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:12,
+      id: 12,
       tags: ["Crawler"],
       title: "画像収集アプリ(Salesforce AIアプリコンテスト 2018 参加)",
       subTitle: "",
       date: "2018年 05月",
       mainImage: "statics/images/portfolio/12.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:13,
+      id: 13,
       tags: ["App"],
       title: "工業所ユーザ管理アプリ リニューアル",
       subTitle: "",
       date: "2018年 05月 ~ 2019年 02月",
       mainImage: "statics/images/portfolio/13.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:14,
+      id: 14,
       tags: ["Web"],
       title: "韓国の開発コミュニティNomadCodersの海外勤務者表示地図アプリ",
       subTitle: "",
       date: "2018年 11月",
       mainImage: "statics/images/portfolio/14.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:15,
+      id: 15,
       tags: ["Desktop"],
       title: "TodoList",
       subTitle: "",
       date: "2019年 01月",
       mainImage: "statics/images/portfolio/15.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:16,
+      id: 16,
       tags: ["Web"],
       title: "動画共有プラットフォーム",
       subTitle: "",
       date: "2019年 02月 ~ 2019年 07月",
       mainImage: "statics/images/portfolio/16.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:17,
+      id: 17,
       tags: ["Web"],
       title: "スケッチブック",
       subTitle: "",
       date: "2019年 04月 ~ 2019年 05月",
       mainImage: "statics/images/portfolio/17.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:18,
+      id: 18,
       tags: ["Game", "App"],
       title: "3Dインディーゲーム",
       subTitle: "",
       date: "2019年 05月",
       mainImage: "statics/images/portfolio/18.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:19,
+      id: 19,
       tags: ["Web"],
       title: "人気映画作品一覧サイト",
       subTitle: "",
       date: "2019年 05月",
       mainImage: "statics/images/portfolio/19.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:20,
+      id: 20,
       tags: ["Game"],
       title: "Quizゲーム",
       subTitle: "",
       date: "2019年 06月",
       mainImage: "statics/images/portfolio/20.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:21,
+      id: 21,
       tags: ["Web"],
       title: "旅行サポートサービス（スーツケース、備品宅配）",
       subTitle: "",
       date: "2019年 06月 ~ 2019年 08月",
       mainImage: "statics/images/portfolio/21.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:22,
+      id: 22,
       tags: ["App"],
       title: "入店形式の総合ショッピングモール",
       subTitle: "",
       date: "2019年 08月 ~ 2020年 02月",
       mainImage: "statics/images/portfolio/22.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:23,
+      id: 23,
       tags: ["App"],
       title: "画像切り取り、ARアプリ",
       subTitle: "",
       date: "2019年 11月 ~ 2020年 03月",
       mainImage: "statics/images/portfolio/23.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:24,
+      id: 24,
       tags: ["Web"],
       title: "韓国の開発コミュニティNomadCodersのHackathon参加者登録ページ",
       subTitle: "",
       date: "2020年 02月",
       mainImage: "statics/images/portfolio/24.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     },
     {
-      id:25,
+      id: 25,
       tags: ["Desktop"],
       title: "オフラインメモアプリ",
       subTitle: "",
       date: "2020年 03月",
       mainImage: "statics/images/portfolio/25.png",
-      content:"contentcontentcontentcontentcontent",
-      subImages:[
+      content: "contentcontentcontentcontentcontent",
+      subImages: [
         "statics/images/portfolio/1.png",
         "statics/images/portfolio/5.png",
         "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png",
+        "statics/images/portfolio/4.png"
       ]
     }
   ],
-  projectModalActiveIndex:1
+  projectModalActiveIndex: 1
 };

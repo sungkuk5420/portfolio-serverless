@@ -1,18 +1,25 @@
 <template>
   <div class="project" :class="item.tags">
-    <a class="open-project" href="#" @click="function(){openModal(item.id)}">
+    <a
+      class="open-project"
+      href="#"
+      @click="
+        () => {
+          openModal(item.id);
+        }
+      "
+    >
       <div class="project-overlay">
         <div class="vcenter">
           <div class="centrize">
             <h4 data-langtext>{{ item.title }}</h4>
-            <p data-langtext>{{ item.subTitle }}</p>
+            <p data-langtext>{{ item.tags.join(" / ") }}</p>
           </div>
         </div>
       </div>
     </a>
     <img :src="item.mainImage" alt />
   </div>
-  
 </template>
 
 <script>
@@ -24,26 +31,25 @@ export default {
   props: ["item"],
   components: {},
   computed: {},
-  mounted() {
-    
-  },
+  mounted() {},
   methods: {
-    openModal (id) {
+    openModal(id) {
       this.$store.dispatch(T.CHANGE_PROJECT_MODAL_DATA, {
-        data:id,
-        cb:()=>{
-        var projectUrl = $(this).attr("href");
-        projectUrl = "test";
-        $("#project-modal")
-          .modal("show")
-          .find(".modal-content");
-        setTimeout(function() {
-          modalScroll = new IScroll(".modal", {
-            scrollbars: true,
-            mouseWheel: true
-          });
-        }, 200);
-      }});
+        data: id,
+        cb: () => {
+          var projectUrl = $(this).attr("href");
+          projectUrl = "test";
+          $("#project-modal")
+            .modal("show")
+            .find(".modal-content");
+          setTimeout(function() {
+            modalScroll = new IScroll(".modal", {
+              scrollbars: true,
+              mouseWheel: true
+            });
+          }, 200);
+        }
+      });
     }
   }
 };
