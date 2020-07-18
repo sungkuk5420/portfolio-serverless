@@ -133,10 +133,10 @@ export default {
       mainImage: "statics/images/portfolio/1.png",
       content: "contentcontentcontentcontentcontent",
       subImages: [
-        "statics/images/portfolio/details/1/1.jpg",
-        "statics/images/portfolio/details/1/2.jpg",
-        "statics/images/portfolio/details/1/3.png",
-        "statics/images/portfolio/details/1/4.png",
+        "statics/images/portfolio/details/1/1.png",
+        "statics/images/portfolio/details/1/2.png",
+        "statics/images/portfolio/details/1/3.jpg",
+        "statics/images/portfolio/details/1/4.jpg",
         "statics/images/portfolio/details/1/5.png"
       ]
     },
@@ -187,17 +187,17 @@ export default {
       mainImage: "statics/images/portfolio/4.png",
       content: "contentcontentcontentcontentcontent",
       subImages: [
-        "statics/images/portfolio/details/3/1.png",
-        "statics/images/portfolio/details/3/2.jpg",
-        "statics/images/portfolio/details/3/3.jpg",
-        "statics/images/portfolio/details/3/4.png",
-        "statics/images/portfolio/details/3/5.jpg",
-        "statics/images/portfolio/details/3/6.jpg",
-        "statics/images/portfolio/details/3/7.jpg",
-        "statics/images/portfolio/details/3/8.png",
-        "statics/images/portfolio/details/3/9.jpg",
-        "statics/images/portfolio/details/3/10.jpg",
-        "statics/images/portfolio/details/3/11.jpg"
+        "statics/images/portfolio/details/4/1.png",
+        "statics/images/portfolio/details/4/2.png",
+        "statics/images/portfolio/details/4/3.png",
+        "statics/images/portfolio/details/4/4.png",
+        "statics/images/portfolio/details/4/5.png",
+        "statics/images/portfolio/details/4/6.png",
+        "statics/images/portfolio/details/4/7.png",
+        "statics/images/portfolio/details/4/8.png",
+        "statics/images/portfolio/details/4/9.png",
+        "statics/images/portfolio/details/4/10.png",
+        "statics/images/portfolio/details/4/11.png"
       ]
     },
     {
@@ -209,10 +209,17 @@ export default {
       mainImage: "statics/images/portfolio/5.png",
       content: "contentcontentcontentcontentcontent",
       subImages: [
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png"
+        "statics/images/portfolio/details/4/1.png",
+        "statics/images/portfolio/details/4/2.png",
+        "statics/images/portfolio/details/4/3.png",
+        "statics/images/portfolio/details/4/4.png",
+        "statics/images/portfolio/details/4/5.png",
+        "statics/images/portfolio/details/4/6.png",
+        "statics/images/portfolio/details/4/7.png",
+        "statics/images/portfolio/details/4/8.png",
+        "statics/images/portfolio/details/4/9.png",
+        "statics/images/portfolio/details/4/10.png",
+        "statics/images/portfolio/details/4/11.png"
       ]
     },
     {
@@ -224,10 +231,10 @@ export default {
       mainImage: "statics/images/portfolio/6.png",
       content: "contentcontentcontentcontentcontent",
       subImages: [
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png"
+        "statics/images/portfolio/details/6/1.png",
+        "statics/images/portfolio/details/6/2.png",
+        "statics/images/portfolio/details/6/3.png",
+        "statics/images/portfolio/details/6/4.png",
       ]
     },
     {
@@ -243,7 +250,18 @@ export default {
         "statics/images/portfolio/details/7/2.png",
         "statics/images/portfolio/details/7/3.png",
         "statics/images/portfolio/details/7/4.png",
-        "statics/images/portfolio/details/7/5.png"
+        "statics/images/portfolio/details/7/5.png",
+        "statics/images/portfolio/details/7/6.png",
+        "statics/images/portfolio/details/7/7.png",
+        "statics/images/portfolio/details/7/8.png",
+        "statics/images/portfolio/details/7/9.png",
+        "statics/images/portfolio/details/7/10.png",
+        "statics/images/portfolio/details/7/11.png",
+        "statics/images/portfolio/details/7/12.png",
+        "statics/images/portfolio/details/7/13.png",
+        "statics/images/portfolio/details/7/14.png",
+        "statics/images/portfolio/details/7/15.png",
+        "statics/images/portfolio/details/7/16.png",
       ]
     },
     {
@@ -255,10 +273,34 @@ export default {
       mainImage: "statics/images/portfolio/8.png",
       content: "contentcontentcontentcontentcontent",
       subImages: [
-        "statics/images/portfolio/1.png",
-        "statics/images/portfolio/5.png",
-        "statics/images/portfolio/3.png",
-        "statics/images/portfolio/4.png"
+        "statics/images/portfolio/details/8/1.png",
+        "statics/images/portfolio/details/8/2.png",
+        "statics/images/portfolio/details/8/3.png",
+        "statics/images/portfolio/details/8/4.png",
+        "statics/images/portfolio/details/8/5.png",
+        "statics/images/portfolio/details/8/6.png",
+        "statics/images/portfolio/details/8/7.png",
+        "statics/images/portfolio/details/8/8.png",
+        "statics/images/portfolio/details/8/9.png",
+        "statics/images/portfolio/details/8/10.png",
+        "statics/images/portfolio/details/8/11.png",
+        "statics/images/portfolio/details/8/12.png",
+        "statics/images/portfolio/details/8/13.png",
+        "statics/images/portfolio/details/8/14.png",
+        "statics/images/portfolio/details/8/15.png",
+        "statics/images/portfolio/details/8/16.png",
+        "statics/images/portfolio/details/8/17.png",
+        "statics/images/portfolio/details/8/18.png",
+        "statics/images/portfolio/details/8/19.png",
+        "statics/images/portfolio/details/8/20.png",
+        "statics/images/portfolio/details/8/21.png",
+        "statics/images/portfolio/details/8/22.png",
+        "statics/images/portfolio/details/8/23.png",
+        "statics/images/portfolio/details/8/24.png",
+        "statics/images/portfolio/details/8/25.png",
+        "statics/images/portfolio/details/8/26.png",
+        "statics/images/portfolio/details/8/27.png",
+        "statics/images/portfolio/details/8/28.png",
       ]
     },
     {
