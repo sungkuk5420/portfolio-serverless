@@ -5,7 +5,7 @@
         <h2
           data-langtext
           class="about menu-item"
-          onclick="about(); ga('send', 'event', 'portfolio','click','resumePage');"
+          onclick="about(); "
         >
           履歴書
         </h2>
@@ -16,7 +16,7 @@
         <h2
           data-langtext
           class="portfolio menu-item"
-          onclick="portfolio(); ga('send', 'event', 'portfolio','click','portfolioPage');"
+          onclick="portfolio(); "
         >
           ポートフォリオ
         </h2>

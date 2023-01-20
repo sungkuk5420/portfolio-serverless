@@ -15,14 +15,14 @@
         <li
           data-langtext
           class="about menu-item"
-          onclick="about(); ga('send', 'event', 'portfolio','click','resumePage');"
+          onclick="about(); "
         >
           履歴書
         </li>
         <li
           data-langtext
           class="portfolio menu-item"
-          onclick="portfolio(); ga('send', 'event', 'portfolio','click','portfolioPage');"
+          onclick="portfolio(); "
         >
           ポートフォリオ
         </li>

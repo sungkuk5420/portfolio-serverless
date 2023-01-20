@@ -66,7 +66,7 @@
                 <div class="exp" v-for="(item,index) in projects" :key="index">
                   <div class="hgroup"> 
                     <h4 data-langtext>{{item.name}}</h4>
-                    <h5 data-langtext>{{item.date}}</h5>
+                    <!-- <h5 data-langtext>{{item.date}}</h5> -->
                   </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@
                 <a
                   class="btn lowercase"
                   href="#"
-                  onclick="portfolio(); ga('send', 'event', 'portfolio','click','portfolioPage');"
+                  onclick="portfolio(); "
                   data-langtext
                   >詳細</a
                 ><br />
@@ -129,7 +129,7 @@
 
       <div class="block-content">
         <h3 class="block-title" data-langtext>
-          私はこれが開発できます。
+          開発
         </h3>
         <div class="row">
           <div class="col-sm-4 col-xs-12 service">

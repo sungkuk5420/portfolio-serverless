@@ -64,6 +64,7 @@ async function textTranslateAll(resultLang) {
     var sendText = $.trim($this.text());
     let checkKey = false;
     let autoKey = false;
+    console.log(sendText)
     textTranslate({
       sendText,
       resultLang,
@@ -142,20 +143,22 @@ function canTranslateApi(translateTextObj, resultLang) {
 function getTextData(sendText, resultLang) {
   var textData = [];
   // console.log(DBData);
-  if (resultLang == "ja") {
-    textData = DBData.filter(function(item) {
-      return (
-        $.trim(item.data.ko) === $.trim(sendText) ||
-        $.trim(item.data.ja) === $.trim(sendText)
-      );
-    });
-  } else if (resultLang == "ko") {
-    textData = DBData.filter(function(item) {
-      return (
-        $.trim(item.data.ja) === $.trim(sendText) ||
-        $.trim(item.data.ko) === $.trim(sendText)
-      );
-    });
+  if(DBData){
+    if (resultLang == "ja") {
+      textData = DBData.filter(function(item) {
+        return (
+          $.trim(item.data.ko) === $.trim(sendText) ||
+          $.trim(item.data.ja) === $.trim(sendText)
+        );
+      });
+    } else if (resultLang == "ko") {
+      textData = DBData.filter(function(item) {
+        return (
+          $.trim(item.data.ja) === $.trim(sendText) ||
+          $.trim(item.data.ko) === $.trim(sendText)
+        );
+      });
+    }
   }
 
   if (textData.length !== 0) {
@@ -169,7 +172,7 @@ function getTextData(sendText, resultLang) {
 
   if (textData.length >= 1) {
     if (textData.length !== 1) {
-      console.log("중복저장된 항목", textData[0]);
+      // console.log("중복저장된 항목", textData[0]);
     }
     return {
       data: textData[0]
@@ -213,7 +216,7 @@ function translateCB(translateTextObj, sendLang, checkKey, autoKey) {
 }
 
 function translateAPI(text, sendLang, resultLang, cb) {
-  var apiUrl = "https://54.64.84.165";
+  var apiUrl = "http://localhost:3000";
   $.ajax({
     type: "GET",
     beforeSend: function(request) {
