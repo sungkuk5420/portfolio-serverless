@@ -34,7 +34,7 @@
               </li>
               <li>
                 <strong data-langtext>経歴</strong>
-                <span data-langtext>6年目ウェブエンジニア</span>
+                <span data-langtext>8年目ウェブエンジニア</span>
               </li>
               <li>
                 <strong data-langtext>希望 : </strong>
