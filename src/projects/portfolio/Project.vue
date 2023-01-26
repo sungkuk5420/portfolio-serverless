@@ -42,12 +42,6 @@ export default {
           $("#project-modal")
             .modal("show")
             .find(".modal-content");
-          setTimeout(function() {
-            modalScroll = new IScroll(".modal", {
-              scrollbars: true,
-              mouseWheel: true
-            });
-          }, 200);
         }
       });
     }

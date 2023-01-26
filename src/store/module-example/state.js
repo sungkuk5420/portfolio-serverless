@@ -187,7 +187,7 @@ export default {
       tags: ["Web","Interactive"],
       title: "はごろもフーズのキャンペーンサイト",
       subTitle: "",
-      mainImage: "statics/images/portfolio/5.png",
+      mainImage: "statics/images/portfolio/5.gif",
       subImages: [
         "statics/images/portfolio/details/5/1.png",
         "statics/images/portfolio/details/5/2.png",
