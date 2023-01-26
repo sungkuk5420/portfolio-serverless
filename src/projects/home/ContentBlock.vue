@@ -46,12 +46,12 @@
               </li>
               <!--<li><strong>Skype : </strong>  James.Bond</li> -->
             </ul>
-            <ul class="info-list">
+            <!-- <ul class="info-list">
               <li>
                 <strong data-langtext>お知らせ</strong><br />
                 <span data-langtext>2020年4月から稼働できます。</span>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>

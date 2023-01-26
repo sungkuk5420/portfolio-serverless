@@ -17,6 +17,13 @@
           ></a>
         </li>
         <li>
+          <a
+            href="#"
+            onclick="window.open('https://github.com/sungkuk5420');"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
           <a href="#" onclick="textTranslateAll('ko');"
             ><img class="flag flag-kr"
           /></a>

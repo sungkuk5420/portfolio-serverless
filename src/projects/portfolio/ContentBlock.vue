@@ -9,6 +9,7 @@
           <li @click="rebindScroll" data-filter=".App">App</li>
           <li @click="rebindScroll" data-filter=".Crawler">Crawler</li>
           <li @click="rebindScroll" data-filter=".Game">Game</li>
+          <li @click="rebindScroll" data-filter=".Interactive">Interactive</li>
         </ul>
         <div id="projects">
           <Project :item="item" v-for="(item,index) in portfolios" :key="index" />

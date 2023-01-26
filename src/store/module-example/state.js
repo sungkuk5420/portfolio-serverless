@@ -43,6 +43,9 @@ export default {
     //   name: "Web Site – 動画共有プラットフォーム",
     // },
     {
+      name: "Web Game – 迷路ゲーム",
+    },
+    {
       name: "Web Site – スケッチブック",
     },
     {
@@ -63,6 +66,14 @@ export default {
     {
       name:
         "Web Site – 韓国の開発コミュニティNomadCodersのHackathon参加者登録ページ",
+    },
+    {
+      name:
+        "2d Web Game – スーパーマリオゲーム",
+    },
+    {
+      name:
+        "Web  – 漫画自動翻訳（光学文字認識）",
     },
     // {
     //   name: "Progressive Web App – 画像切り取り、ARアプリ",
@@ -173,7 +184,7 @@ export default {
     },
     {
       id: 5,
-      tags: ["Web"],
+      tags: ["Web","Interactive"],
       title: "はごろもフーズのキャンペーンサイト",
       subTitle: "",
       mainImage: "statics/images/portfolio/5.png",
@@ -234,7 +245,7 @@ export default {
     },
     {
       id: 8,
-      tags: [],
+      tags: ["App"],
       title: "工業所ユーザ管理アプリ リニューアル",
       subTitle: "",
       mainImage: "statics/images/portfolio/8.png",
@@ -283,7 +294,7 @@ export default {
       tags: ["Game"],
       title: "インディーゲーム",
       subTitle: "",
-      mainImage: "statics/images/portfolio/12.png",
+      mainImage: "statics/images/portfolio/12.gif",
       subImages: [
         "statics/images/portfolio/details/12/1.png",
         "statics/images/portfolio/details/12/2.png",
@@ -292,17 +303,17 @@ export default {
     },
     {
       id: 13,
-      tags: ["Web"],
+      tags: ["Web","Interactive"],
       title: "人気映画作品一覧サイト",
       subTitle: "",
-      mainImage: "statics/images/portfolio/13.png",
+      mainImage: "statics/images/portfolio/13.gif",
       subImages: [
         "statics/images/portfolio/13.png",
       ]
     },
     {
       id: 14,
-      tags: ["Web","App"],
+      tags: ["Web"],
       title: "旅行サポートサービス（スーツケース、備品宅配）",
       subTitle: "",
       mainImage: "statics/images/portfolio/14.png",
@@ -326,6 +337,36 @@ export default {
       mainImage: "statics/images/portfolio/15.png",
       subImages: [
         "statics/images/portfolio/15.png",
+      ]
+    },
+    {
+      id: 16,
+      tags: ["Game"],
+      title: "迷路ゲーム",
+      subTitle: "",
+      mainImage: "statics/images/portfolio/16.gif",
+      subImages: [
+        "statics/images/portfolio/16.png",
+      ]
+    },
+    {
+      id: 17,
+      tags: ["Game"],
+      title: "スーパーマリオゲーム",
+      subTitle: "",
+      mainImage: "statics/images/portfolio/17.gif",
+      subImages: [
+        "statics/images/portfolio/17.png",
+      ]
+    },
+    {
+      id: 18,
+      tags: ["Web"],
+      title: "漫画自動翻訳（光学文字認識）",
+      subTitle: "",
+      mainImage: "statics/images/portfolio/18.gif",
+      subImages: [
+        "statics/images/portfolio/18.gif",
       ]
     },
   ],
