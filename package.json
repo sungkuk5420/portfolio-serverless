@@ -30,7 +30,7 @@
     "quasar": "^1.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0",
+    "@quasar/app": "^3.3.3",
     "node-sass": "4.13.1",
     "sass-loader": "8.0.2"
   },
