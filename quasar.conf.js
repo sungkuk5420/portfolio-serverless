@@ -50,7 +50,7 @@ module.exports = function(ctx) {
       ],
 
       // Quasar plugins
-      plugins: ["BottomSheet", "Notify", "Dialog"]
+      plugins: ["BottomSheet", "Notify", "Dialog","Meta"]
     },
 
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ie

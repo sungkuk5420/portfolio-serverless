@@ -3,10 +3,12 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div id="project">
-          <section class="content">
+          <section class="content" style="overflow: scroll;">
             <div class="block-content">
               <div class="project-title">
                 <h2>{{ projectModalData.title }}</h2>
+                <a v-show="projectModalData.github" :href="projectModalData.github" target="_blank" style="margin-right:20px;">github</a>
+                <a v-show="projectModalData.link" :href="projectModalData.link" target="_blank">demo</a>
                 <p class="tags">
                   {{ projectModalData.tags.join(" / ") }}<br />{{
                     projectModalData.date

@@ -18,7 +18,7 @@
           </div>
           <div class="contact-details">
             <h5>電話番号</h5>
-            <p>+81 - 070-4805-2725</p>
+            <p>+81  090-3637-2023</p>
           </div>
         </div>
         <div class="contact-content">

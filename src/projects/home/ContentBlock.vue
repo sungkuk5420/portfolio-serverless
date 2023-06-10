@@ -66,6 +66,8 @@
                 <div class="exp" v-for="(item,index) in projects" :key="index">
                   <div class="hgroup"> 
                     <h4 data-langtext>{{item.name}}</h4>
+                    <a v-show="item.github" :href="item.github" target="_blank" style="margin-right:20px;">github</a>
+                    <a v-show="item.link" :href="item.link" target="_blank">demo</a>
                     <!-- <h5 data-langtext>{{item.date}}</h5> -->
                   </div>
                 </div>

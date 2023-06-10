@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier -->
 <template>
   <div class="flex flex-start index-page">
     <Loading />
@@ -34,7 +35,12 @@ export default {
     movePage(pageName) {
       this.$router.push(pageName);
     },
-  }
+  },
+  meta () {
+		return {
+			title: "金 城局です",
+		}
+	},
 };
 </script>
 
