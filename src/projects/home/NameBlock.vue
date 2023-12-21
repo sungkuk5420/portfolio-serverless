@@ -9,13 +9,13 @@
       <h1 data-langtext>金 城局です。</h1>
       <h2 data-langtext>ウェブエンジニア</h2>
       <ul class="social">
-        <li>
+        <!-- <li>
           <a
             href="#"
             onclick="window.open('https://www.facebook.com/sungkuk5420');"
             ><i class="fa fa-facebook"></i
           ></a>
-        </li>
+        </li> -->
         <li>
           <a
             href="#"
@@ -31,6 +31,11 @@
         <li>
           <a href="#" onclick="textTranslateAll('ja');"
             ><img class="flag flag-jp"
+          /></a>
+        </li>
+        <li>
+          <a href="#" onclick="textTranslateAll('en');"
+            ><img class="flag flag-us"
           /></a>
         </li>
       </ul>

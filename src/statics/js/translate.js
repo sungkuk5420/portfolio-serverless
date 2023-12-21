@@ -17,6 +17,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
 //checkKey를 넣으면 2번 검사한다. ex)한글 영어 따로따로 저장함. 안넣으면 입력키가 한글이면 한글에 바로 저장됨.
 //autoKey를 넣으면 언어를 자동으로 탐색해준다. 일본어를 넣어서 일본어 번역을 시도할경우 한국어가 나옴. 채팅의 경우 on해주면 좋음.
 // textTranslate({
@@ -64,7 +65,6 @@ async function textTranslateAll(resultLang) {
     var sendText = $.trim($this.text());
     let checkKey = false;
     let autoKey = false;
-    console.log(sendText)
     textTranslate({
       sendText,
       resultLang,
@@ -72,20 +72,25 @@ async function textTranslateAll(resultLang) {
       autoKey,
       cb: data => {
         textArr.push(data);
-        if (resultLang === "ko") {
+        if(data.translatedText){
+          $this.text(data.translatedText);
+        }else if (resultLang === "ko") {
           $this.text(data.ko);
-        } else {
+        } else if (resultLang === "ja") {
           $this.text(data.ja);
+        } else{
+          $this.text(data.en);
         }
       }
     });
   });
+  BASELANG = resultLang;
 }
 window.getTextData = getTextData;
 function textTranslate({
   sendText = "",
   sendLang = BASELANG,
-  resultLang = BASELANG === "ko" ? "ja" : "ko",
+  resultLang,
   checkKey = true,
   autoKey = false,
   cb
@@ -96,10 +101,27 @@ function textTranslate({
 
       var bl = canTranslateApi(translateTextObj, resultLang);
 
+      console.log("canTranslateApi",bl)
+      console.log("translateTextObj",translateTextObj)
       if (bl) {
         translateAPI(sendText, sendLang, resultLang, function(data) {
-          resolve(data);
-          pushDatabase(translateCB(data, sendLang, checkKey, autoKey));
+          const convertedData = {
+            ko:sendLang=='ko'?sendText:(resultLang=='ko'?data.message.result.translatedText:''),
+            ja:sendLang=='ja'?sendText:(resultLang=='ja'?data.message.result.translatedText:''),
+            en:sendLang=='en'?sendText:(resultLang=='en'?data.message.result.translatedText:''),
+            sendText:sendText,
+            sendLang:data.message.result.srcLangType,
+            resultLang:data.message.result.tarLangType,
+            translatedText:data.message.result.translatedText,
+          };
+          console.log("convertedData",convertedData)
+          resolve(convertedData);
+          if(!translateTextObj){
+            pushDatabase(convertedData);
+          }else{
+            console.log('데이터가 있습니다!!',convertedData)
+            upsetDatabase(translateTextObj,convertedData);
+          }
         });
       } else {
         // console.log(
@@ -108,6 +130,7 @@ function textTranslate({
         //     " jaText :" +
         //     translateTextObj.data.ja
         // );
+        console.log("이미 완성된 데이터가 있습니다",translateTextObj)
         resolve(translateTextObj.data);
       }
     });
@@ -133,6 +156,10 @@ function canTranslateApi(translateTextObj, resultLang) {
       if (translateTextObj.data.ja == "") {
         return true;
       }
+    }else if (resultLang == "en") {
+      if (translateTextObj.data.en == "") {
+        return true;
+      }
     }
     return false;
   }
@@ -142,40 +169,59 @@ function canTranslateApi(translateTextObj, resultLang) {
 
 function getTextData(sendText, resultLang) {
   var textData = [];
-  // console.log(DBData);
+  console.log(sendText,resultLang);
+  console.log(DBData);
+  
+  getDataBase().then(
+    function(DBData) {
+      // 성공시
+      console.log(DBData);
+      if (cb) {
+        cb();
+      }
+    },
+    function(error) {
+      // 실패시
+      console.error(error);
+    }
+  );
   if(DBData){
     if (resultLang == "ja") {
       textData = DBData.filter(function(item) {
         return (
-          $.trim(item.data.ko) === $.trim(sendText) ||
+          $.trim(item.data.sendText) === $.trim(sendText)||
+          $.trim(item.data.ko) === $.trim(sendText)||
+          $.trim(item.data.en) === $.trim(sendText)||
           $.trim(item.data.ja) === $.trim(sendText)
         );
       });
     } else if (resultLang == "ko") {
       textData = DBData.filter(function(item) {
         return (
-          $.trim(item.data.ja) === $.trim(sendText) ||
-          $.trim(item.data.ko) === $.trim(sendText)
+          $.trim(item.data.sendText) === $.trim(sendText)||
+          $.trim(item.data.ko) === $.trim(sendText)||
+          $.trim(item.data.en) === $.trim(sendText)||
+          $.trim(item.data.ja) === $.trim(sendText)
+        );
+      });
+    }else if (resultLang == "en") {
+      textData = DBData.filter(function(item) {
+        return (
+          $.trim(item.data.sendText) === $.trim(sendText)||
+          $.trim(item.data.ko) === $.trim(sendText)||
+          $.trim(item.data.en) === $.trim(sendText)||
+          $.trim(item.data.ja) === $.trim(sendText)
         );
       });
     }
   }
 
-  if (textData.length !== 0) {
-    if (
-      (resultLang == "ko" && textData[0].data.ko === "") ||
-      (resultLang == "ja" && textData[0].data.ja === "")
-    ) {
-      textData = [];
-    }
-  }
+  console.log(textData)
 
   if (textData.length >= 1) {
-    if (textData.length !== 1) {
-      // console.log("중복저장된 항목", textData[0]);
-    }
+    console.log("중복저장된 항목", textData[0]);
     return {
-      data: textData[0]
+      data: JSON.parse(JSON.stringify(textData[0]))
     };
   } else {
     return {
@@ -184,15 +230,43 @@ function getTextData(sendText, resultLang) {
   }
 }
 
+function upsetDatabase(translateTextObj,convertedData) {
+  let { sendText, ja, ko, en } = convertedData;
+  if(ja == '' && convertedData.ja){
+    ja = convertedData.ja
+  }
+  if(ko == '' && convertedData.ko){
+    ko = convertedData.ko
+  }
+  if(en == '' && convertedData.ja){
+    en = convertedData.en
+  }
+  if(ja == '' && translateTextObj.data.ja){
+    ja = translateTextObj.data.ja
+  }
+  if(ko == '' && translateTextObj.data.ko){
+    ko = translateTextObj.data.ko
+  }
+  if(en == '' && translateTextObj.data.ja){
+    en = translateTextObj.data.en
+  }
+  DATABASE.ref('/' + translateTextObj.id).set({
+    sendText,
+    ja,
+    ko,
+    en
+  });
+}
 function pushDatabase(translateTextObj) {
-  const { sendText, ja, ko } = translateTextObj;
+  const { sendText, ja, ko, en } = translateTextObj;
   DATABASE.ref(defaultPath)
     .child("/")
     .push(
       {
         sendText,
         ja,
-        ko
+        ko,
+        en
       },
       function(error) {
         if (error) {
@@ -216,7 +290,8 @@ function translateCB(translateTextObj, sendLang, checkKey, autoKey) {
 }
 
 function translateAPI(text, sendLang, resultLang, cb) {
-  var apiUrl = "http://localhost:3000";
+  // var apiUrl = "http://localhost:4000";
+  var apiUrl = "https://translate-tool-adbaaa4c146d.herokuapp.com/";
   $.ajax({
     type: "GET",
     beforeSend: function(request) {
